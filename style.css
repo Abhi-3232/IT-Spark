@@ -1,0 +1,25 @@
+*{
+    margin    : 0px;
+    padding   : 0px;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#00A88F, #FFFFFF);
+}
+.cover-img{
+    width: 50%;
+    height: 30vh;
+}
+.secondry-image{
+    background: rgb(133, 53, 53);
+    border: 2px solid black;
+    height: 507px;
+    width: 1177px;
+    z-index: -1;
+}
+.secondry-image img{
+    height: 507px;
+    width: 1177px;
+}
