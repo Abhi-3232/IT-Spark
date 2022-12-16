@@ -11,49 +11,90 @@
 }
 
 .navbar{
-    height    : 100px;
+    padding   : 0px 6%;
+}
+
+.nav-item a{
+    margin      : 0px 16px;
+    color       : black !important;
+    font-weight : bold;
+}
+
+.navbar-brand{
+    margin-left: 2%;
+    font-size: 25px !important;
+    color     : #00A88F !important;
+}
+
+.navigation{
+    background-color: #fff;
+    padding-bottom: 1px;
+}
+
+.navigation ul{
+    display          : flex;
+    list-style       : none;
+    justify-content  : flex-end;
+    margin-right     : 15%;
+    margin-bottom    : 5px;
+}
+
+.navigation-list li a{
+    text-decoration  : none;
+    margin-left      : 38px;
+    color            : black;
+}
+
+.navigation-list li a i{
+    color            : #00A88F;
+    margin-left      : 5px;
 }
 
 .cover-image{
-    position: relative;
-    display: flex;
-    height: 85vh;
-    width: 75%;
-    align-items: center;
-    justify-content: flex-end;
-    margin: auto;
+    position         : relative;
+    display          : flex;
+    height           : 85vh;
+    width            : 75%;
+    align-items      : center;
+    justify-content  : flex-end;
+    margin           : auto;
 
 }
 
 .inner-image{
-    background-image:
+    background-image :
     linear-gradient(to bottom, rgba(0, 168, 143, 0.67),rgba(0, 42, 83, 0.67)),
     url('./Assets/Images/Vector_2640\ .png');
-    height: 72vh;
-    width: 62vw;
-    border-radius: 30px;
-    background-size: cover;
-    padding-left: 55px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    
+    height           : 72vh;
+    width            : 62vw;
+    border-radius    : 30px;
+    background-size  : cover;
+    padding-left     : 55px;
+    display          : flex;
+    justify-content  : center;
+    align-items      : end;
+    flex-direction   : column;
 } 
 
 .inner-image h1{
-    color: #fff;
-    text-align: left;
+    color            : #fff;
+    margin-left      : 30%;
+}
+
+.inner-image button{
+    align-self       : center;
+    margin-left      : -17%;
+    margin-top       : 20px;
 }
 
 .outer-img img{
-    /* background-image: url(./Assets/Images/technology-human-touch-background-modern-remake-creation-adam\ \(1\).jpg); */
-    height: 62vh;
-    width: 35vw;
-    border-radius: 30px;
-    background-size: cover; 
-    z-index: 2;
-    position: absolute;
-    top: 13%;
-    left: 0;
-    box-shadow: 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
+    height           : 62vh;
+    width            : 35vw;
+    border-radius    : 30px;
+    background-size  : cover; 
+    z-index          : 2;
+    position         : absolute;
+    top              : 13%;
+    left             : 0;
+    box-shadow       : 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
 }
