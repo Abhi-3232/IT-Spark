@@ -3,23 +3,57 @@
     padding   : 0px;
     box-sizing: border-box;
 }
+
 .hero{
-    height: 100vh;
-    width: 100%;
+    height    : 100vh;
+    width     : 100%;
     background: linear-gradient(#00A88F, #FFFFFF);
 }
-.cover-img{
-    width: 50%;
-    height: 30vh;
+
+.navbar{
+    height    : 100px;
 }
-.secondry-image{
-    background: rgb(133, 53, 53);
-    border: 2px solid black;
-    height: 507px;
-    width: 1177px;
-    z-index: -1;
+
+.cover-image{
+    position: relative;
+    display: flex;
+    height: 85vh;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+
 }
-.secondry-image img{
-    height: 507px;
-    width: 1177px;
+
+.inner-image{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 168, 143, 0.67),rgba(0, 42, 83, 0.67)),
+    url('./Assets/Images/Vector_2640\ .png');
+    height: 72vh;
+    width: 62vw;
+    border-radius: 30px;
+    background-size: cover;
+    padding-left: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+} 
+
+.inner-image h1{
+    color: #fff;
+    text-align: left;
+}
+
+.outer-img img{
+    /* background-image: url(./Assets/Images/technology-human-touch-background-modern-remake-creation-adam\ \(1\).jpg); */
+    height: 62vh;
+    width: 35vw;
+    border-radius: 30px;
+    background-size: cover; 
+    z-index: 2;
+    position: absolute;
+    top: 13%;
+    left: 0;
+    box-shadow: 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
 }
