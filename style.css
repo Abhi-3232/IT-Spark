@@ -20,15 +20,33 @@
     font-weight : bold;
 }
 
+/* .nav-item a ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #00A88F;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-item a:hover::after{
+    width: 100%;
+} */
+
+.nav-item a:hover{
+    color       : #00A88F !important;
+}
+
 .navbar-brand{
-    margin-left: 2%;
-    font-size: 25px !important;
-    color     : #00A88F !important;
+    margin-left : 2%;
+    font-size   : 25px !important;
+    color       : #00A88F !important;
 }
 
 .navigation{
-    background-color: #fff;
-    padding-bottom: 1px;
+    background-color : #fff;
+    padding-bottom   : 1px;
 }
 
 .navigation ul{
@@ -43,6 +61,10 @@
     text-decoration  : none;
     margin-left      : 38px;
     color            : black;
+}
+
+.navigation-list li a:hover{
+    color: #00A88F;
 }
 
 .navigation-list li a i{
@@ -72,18 +94,18 @@
     padding-left     : 55px;
     display          : flex;
     justify-content  : center;
-    align-items      : end;
+    align-items      : center;
     flex-direction   : column;
 } 
 
 .inner-image h1{
     color            : #fff;
-    margin-left      : 30%;
+    margin-left      : 22%;
 }
 
 .inner-image button{
     align-self       : center;
-    margin-left      : -17%;
+    margin-left      : -19%;
     margin-top       : 20px;
 }
 
@@ -97,4 +119,25 @@
     top              : 13%;
     left             : 0;
     box-shadow       : 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
+}
+
+
+.card{
+    height: 200px;
+    width: 365px;
+    border: 1px solid black;
+}
+.card:hover{
+    border: 2px solid #00A88F;
+    margin-top: -15px;
+    transition: 0.5s;
+}
+
+.card-img img{
+    height: 100px;
+    width: 100px;
+}
+.second img{
+    height: 80px;
+    width: 80px;
 }
