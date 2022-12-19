@@ -47,6 +47,7 @@
 .navigation{
     background-color : #fff;
     padding-bottom   : 1px;
+    margin-top       : 5%;
 }
 
 .navigation ul{
@@ -121,12 +122,17 @@
     box-shadow       : 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
 }
 
+.heading{
+    margin-left: 8%;
+    margin-bottom: 0px;
+}
 
 .card{
     height: 200px;
-    width: 365px;
+    width: 100%;
     border: 1px solid black;
 }
+
 .card:hover{
     border: 2px solid #00A88F;
     margin-top: -15px;
@@ -140,4 +146,13 @@
 .second img{
     height: 80px;
     width: 80px;
+}
+
+.card .video img{
+    height: 80px;
+    width: 80px;
+}
+.wing img{
+    height: 100px;
+    width: 130px;
 }
