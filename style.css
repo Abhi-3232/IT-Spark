@@ -156,3 +156,52 @@
     height: 100px;
     width: 130px;
 }
+
+.show-more{
+    background-color: #00A88F !important;
+    display: block;
+    border-radius: 30px !important;
+    color: #fff !important;
+    margin: auto !important;
+}
+
+.achievements{
+    background-color:#F4F7FA;
+    height: 50vh;
+}
+
+.achievements-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.achievements-box div{
+    background-color: #fff;
+    padding: 3px;
+    margin: 2px;
+    height: 50% !important;
+    width: 50% !important;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col .team{
+    height: 50px;
+    width: 80px;
+}
+
+.col h5{
+    margin-bottom: 0px;
+    color: #00A88F;
+}
+.col .client{
+    height: 50px;
+    width: 50px;
+}
+.blog p{
+    text-align: justify !important;
+}
