@@ -123,85 +123,111 @@
 }
 
 .heading{
-    margin-left: 8%;
-    margin-bottom: 0px;
+    margin-left      : 8%;
+    margin-bottom    : 0px;
 }
 
 .card{
-    height: 200px;
-    width: 100%;
-    border: 1px solid black;
+    height           : 200px;
+    width            : 100%;
+    border           : 1px solid black;
 }
 
 .card:hover{
-    border: 2px solid #00A88F;
-    margin-top: -15px;
-    transition: 0.5s;
+    border           : 2px solid #00A88F;
+    margin-top       : -15px;
+    transition       : 0.5s;
 }
 
 .card-img img{
-    height: 100px;
-    width: 100px;
+    height           : 100px;
+    width            : 100px;
 }
 .second img{
-    height: 80px;
-    width: 80px;
+    height           : 80px;
+    width            : 80px;
 }
 
 .card .video img{
-    height: 80px;
-    width: 80px;
+    height            : 80px;
+    width             : 80px;
 }
 .wing img{
-    height: 100px;
-    width: 130px;
+    height            : 100px;
+    width             : 130px;
 }
 
 .show-more{
-    background-color: #00A88F !important;
-    display: block;
-    border-radius: 30px !important;
-    color: #fff !important;
-    margin: auto !important;
+    background-color  : #00A88F !important;
+    display           : block;
+    border-radius     : 30px !important;
+    color             : #fff !important;
+    margin            : auto !important;
 }
 
 .achievements{
-    background-color:#F4F7FA;
-    height: 50vh;
+    background-color  :#F4F7FA;
 }
 
 .achievements-box{
-    width: 100%;
-    display: flex;
-    align-items: center;
+    width             : 100%;
+    display           : flex;
+    align-items       : center;
+    background-color  :#F4F7FA;
 }
 
 .achievements-box div{
-    background-color: #fff;
-    padding: 3px;
-    margin: 2px;
-    height: 50% !important;
-    width: 50% !important;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color  : #fff;
+    color             : #00A88F;
+    padding           : 3px;
+    margin            : 2px;
+    height            : 50% !important;
+    width             : 50% !important;
+    border-radius     : 30px;
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
+    flex-direction    : column;
+}
+
+.achievements-box div:hover{
+    /* background-color: #00A88F;
+    color              : #fff; */
+    border             : 1px solid #00A88F;
+    /* margin-top      : -15px !important; */
+    /* transition      : 0.5s; */
 }
 
 .col .team{
-    height: 50px;
-    width: 80px;
+    height            : 50px;
+    width             : 80px;
 }
 
 .col h5{
-    margin-bottom: 0px;
-    color: #00A88F;
+    margin-bottom     : 0px;
+
 }
+
 .col .client{
-    height: 50px;
-    width: 50px;
+    height            : 50px;
+    width             : 50px;
 }
+
 .blog p{
-    text-align: justify !important;
+    text-align        : justify !important;
 }
+
+.testomonial{
+    height            : 30vh;
+}
+
+.logo .col img{
+    height            : 65px;
+    width             : 65px;
+    opacity           : 0.5;
+}
+
+.logo .col img:hover{
+    opacity           : 1;
+}
+
