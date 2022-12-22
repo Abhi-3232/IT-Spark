@@ -127,19 +127,19 @@
     margin-bottom    : 0px;
 }
 
-.card{
+.service-card{
     height           : 200px;
     width            : 100%;
     border           : 1px solid black;
 }
 
-.card:hover{
+.service-card:hover{
     border           : 2px solid #00A88F;
     margin-top       : -15px;
     transition       : 0.5s;
 }
 
-.card-img img{
+.service-card-img img{
     height           : 100px;
     width            : 100px;
 }
@@ -148,7 +148,7 @@
     width            : 80px;
 }
 
-.card .video img{
+.service-card .video img{
     height            : 80px;
     width             : 80px;
 }
@@ -290,21 +290,136 @@
 }
 
 .FAQ img{
-    max-height: 100%;
-    max-width: 100%;
+    max-height        : 100%;
+    max-width         : 100%;
 }
 
 .accordion{
-    border-radius: 30px !important;
-    overflow: hidden !important;
+    border-radius     : 30px !important;
 }
 
 .accordion-button{
-    background: linear-gradient(#00a88f34, #FFFFFF) !important;
-    color: black !important;
-    font-weight: 500;
+    background        : linear-gradient(#00a88f34, #FFFFFF) !important;
+    color             : black !important;
+    font-weight       : 500;
 }
 
-.testimonials{
-    height            : 50vh;
+.Why{
 }
+
+.Why-image img{
+    height            : 100%;
+    width             : 100%;
+    border-radius     : 30px;
+}
+
+.Why-row{
+    display           : flex;
+    justify-content   : baseline;
+}
+
+.Why-row .Why-content{
+    border-radius     : 30px;
+    height            : 100%;
+    max-width         : 100%;
+}
+
+.testomonial-section{
+    position          : relative;
+    box-sizing: border-box !important;
+    /* height            : 80vh; */
+}
+
+.testomonial-section img{
+    background-position: left;
+    background-size    : contain;
+    background-repeat  : no-repeat;
+    object-position    : top !important;
+    object-fit         : cover;
+    height             : 80vh;
+    width              : 100% !important;
+    position           : absolute;
+    z-index            : -1;
+}
+
+.testomonial{
+    /* height             : 80vh; */
+    width              : 100%;
+}
+
+.testomonial-row{
+    height             : 80vh;
+    width              : 100%;
+    display: flex;
+    align-content: center;
+    /* z-index: 2; */
+}
+
+.testomonial-content{
+    color              : #fff;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+    /* top              : 500px; */
+    /* left               : 50%;
+    top             : 50%;
+    transform       : translate(-50% -50%); */
+}
+
+.testomonial-content{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.testomonial-content h1{
+    text-shadow: 2px 2px #00A88F; 
+}
+
+.testomonial-content p{
+    text-shadow: 2px 2px #00A88F; 
+}
+
+.testomonial-review{
+    /* height             : 80vh; */
+    width              : 90%;
+    display: flex;
+    padding-left: 5px;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.testomonial-card{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+
+.testomonial-card-body{
+    /* width: 100%; */
+    height: 100%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testomonial-card-body img{
+    /* position: absolute; */
+    /* top: 5%; */
+    display: block !important;
+    height: 100px !important;
+    width: 100px !important;
+    padding: 10px;
+    z-index: 3;
+object-fit: cover;
+border-radius: 100%;
+}
+
+.testomonial-card-body h5{
+}
+
+@media screen and  
