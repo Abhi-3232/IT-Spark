@@ -30,10 +30,10 @@
     <div class="hero container-fluid p-0">
       <!-- Navigation bar start -->
 
-      <div class="header">
+      <div class="header big-screen-nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-          <div class="container-fluid mx-5">
-            <a class="navbar-brand" href="#">IT Spark</a>
+          <div class="container-fluid mx-5 ms-2">
+            <a class="navbar-brand ms-0" href="#"><img src="./Assets/Images/IT-Spark.png" alt=""></a>
 
             <button
               class="navbar-toggler"
@@ -85,6 +85,56 @@
         </div>
       </div>
 
+      <!-- hidden navbar for small screen start-->
+
+      <div class="header small-screen-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top px-1">
+          <div class="container-fluid mx-3">
+            <a class="navbar-brand ms-0" href="#"><img src="./Assets/Images/IT-Spark.png" alt=""></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mx-5 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What we do</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Who we are</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">investors</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      <!-- hidden navbar for small screen End-->
+      
       <!-- Navigation bar End -->
 
       <!-- background image section start -->
@@ -466,46 +516,107 @@
 
     <!-- testomonial section start -->
     <section class="testomonial-section">
-      <img src="./Assets/Images/Intersection 1.svg" alt="" />
       <div class="container p-0 testomonial">
-        <div class="row testomonial-row">
+        <div class="row testomonial-row ge-0">
           <div
-            class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 testomonial-content text-left"
+            class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 testomonial-content text-center my-auto"
           >
             <h1>Our Customer Feedback</h1>
-            <p class="ms-2">
+            <p class="ms-2 text-start">
               We Focus on Achieving Mutual Goals. Let’s hear what our clients
               think about us.
             </p>
+            <button type="button" class="btn btn-outline-light mt-3">Explore More</button>
           </div>
-          <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 testomonial-review">
-            <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+          <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 testomonial-review pe-0">
 
-              <div class="col-6 testomonial-col ps-3 pe-1 h-100">
-                <div class="card testomonial-card text-center">
-                  <div class="card-body testomonial-card-body p-3">
-                    <img src="./Assets/Images/testo-image.jpg" class="card-img" alt="..."><br>
-                    <h5 class="card-title d-block">Raskshinda Pal</h5>
-                    <p class="card-text d-block">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <!-- new carousel start -->
+              <div id="carouselExampleInterval" class="carousel slide carousel-dark " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="card-wrapper text-center">
+                      <div class="card testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/model 1.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"You have the natural ability to understand and feel what your customers are experiencing, and you are able to meet their needs effectively. Well done!"</p>
+                          <h5 class="card-title card-name text-primary">Maeve</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                      <div class="card testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/model 4.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"you're really good at focusing on what customers need and require. You have a real instinct to understand our customers. Good work!"</p>
+                          <h5 class="card-title card-name text-primary">Moe</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="card-wrapper">
+                      <div class="card testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/model 2.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"You have the natural ability to understand and feel what your customers are experiencing, and you are able to meet their needs effectively. Well done!"</p>
+                          <h5 class="card-title card-name text-primary">Aurelia</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                      <div class="card testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/Model 5.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"you're really good at focusing on what customers need and require. You have a real instinct to understand our customers. Good work!"</p>
+                          <h5 class="card-title card-name text-primary">Faris</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-wrapper">
+                      <div class="card text-center testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/model 3.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"you're really good at focusing on what customers need and require. You have a real instinct to understand our customers. Good work!"</p>
+                          <h5 class="card-title card-name text-primary">Hazel</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                      <div class="card testo-card">
+                        <div class="img-wrapper">
+                        <img src="./Assets/Images/mode 6.jpg" alt="...">
+                        </div>
+                        <div class="card-body card-para text-center pt-0">
+                          <p class="card-text card-quote mb-2">"You have the natural ability to understand and feel what your customers are experiencing, and you are able to meet their needs effectively. Well done!"</p>
+                          <h5 class="card-title card-name text-primary">Edvin</h5>
+                          <p class="text-muted">CEO Reves's</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
+              <!-- new carousel end -->
 
-              <div class="col-6 testomonial-col  h-100">
-                <div class="card testomonial-card text-center">
-                  <div class="card-body testomonial-card-body  p-3">
-                    <img src="./Assets/Images/testo-image 2.jpg" class="card-img" alt="..."><br>
-                    <h5 class="card-title">Keshav Suman</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           </div>

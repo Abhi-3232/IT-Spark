@@ -20,34 +20,20 @@
     font-weight : bold;
 }
 
-/* .nav-item a ::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #00A88F;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-item a:hover::after{
-    width: 100%;
-} */
-
 .nav-item a:hover{
     color       : #00A88F !important;
 }
 
-.navbar-brand{
+.navbar-brand img{
     margin-left : 2%;
-    font-size   : 25px !important;
-    color       : #00A88F !important;
+    height      : 50px;
+    width       : 170px;
 }
 
 .navigation{
     background-color : #fff;
     padding-bottom   : 1px;
-    margin-top       : 5%;
+    margin-top: 6%;
 }
 
 .navigation ul{
@@ -71,6 +57,10 @@
 .navigation-list li a i{
     color            : #00A88F;
     margin-left      : 5px;
+}
+
+.small-screen-nav{
+    display: none;
 }
 
 .cover-image{
@@ -191,11 +181,7 @@
 }
 
 .achievements-box div:hover{
-    /* background-color: #00A88F;
-    color              : #fff; */
     border             : 1px solid #00A88F;
-    /* margin-top      : -15px !important; */
-    /* transition      : 0.5s; */
 }
 
 .col .team{
@@ -258,7 +244,6 @@
 .about .para-col{
     margin-left       : 5% !important;
     color             : #fff;
-    /* border         : 2px solid black; */
     padding           : 15px;
     font-size         : large;
     text-align        : justify;
@@ -324,13 +309,9 @@
 }
 
 .testomonial-section{
-    position          : relative;
-    box-sizing: border-box !important;
-}
-
-.testomonial-section img{
-    background-position: left;
-    background-size    : contain;
+    background-image: url(./Assets/Images/Intersection\ 1.svg);
+    background-position: top;
+    background-size    : cover;
     background-repeat  : no-repeat;
     object-position    : top !important;
     object-fit         : cover;
@@ -347,15 +328,12 @@
 .testomonial-row{
     height             : 80vh;
     width              : 100%;
-    display: flex;
-    align-content: center;
 }
 
 .testomonial-content{
     color              : #fff;
-display                : flex;
-align-items            : center;
 flex-direction         : column;
+
 }
 
 .testomonial-content{
@@ -379,29 +357,84 @@ flex-direction         : column;
     align-items        : center;
 }
 
-.testomonial-card{
-    height             : 100%;
-    width              : 100%;
-    margin             : 5px;
+.card-wrapper{
+    display            : flex;
 }
 
-.testomonial-card-body{
-    height             : 100%;
-    padding            : 10px;
-    /* position           : relative; */
+.testo-card{
+    margin             : 0 .5em;
+    width              : calc(95%/2);
+    border-radius      : 30px!important;
+}
+
+.img-wrapper{
+    height             : 12vw;
     display            : flex;
     justify-content    : center;
     align-items        : center;
-    flex-direction     : column;
-    text-align: justify !important;
 }
 
-.testomonial-card-body img{
-    display            : block !important;
-    height             : 100px !important;
-    width              : 100px !important;
-    padding            : 10px;
-    z-index            : 3;
-    object-fit         : cover;
-    border-radius      : 100%;
+.img-wrapper img{
+    max-height         : 50%;
+    max-width          : 50%;
+    border-radius      : 50%;
 }
+.card-para{
+    text-align         : justify !important;
+}
+
+.card-quote{
+    padding            : 0px 30px;
+}
+
+.card-name{
+    margin             : 25px 0px;
+}
+
+@media screen and (max-width: 542px) {
+    .card-quote {
+      padding-left     : 0px !important;
+      padding-right    : 0px !important;
+    }
+    .card-name{
+        margin         : 2px 0px;
+    }
+    .card-para{
+        font-size      : small;
+    }
+    .navigation{
+        display        : none;
+    }
+    .small-screen-nav{
+        display        : flex;
+    }
+    .big-screen-nav{
+        display        : none;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    .navigation{
+        margin-top     : 10%;
+    }
+  }
+
+
+  @media screen and (max-width: 1025px) {
+    .navigation{
+        margin-top     : 8%;
+    }
+  }
+
+
+  @media screen and (max-width: 920px) {
+    .navigation{
+        margin-top       : 9%;
+    }
+    .navigation ul{
+        display          : flex;
+        list-style       : none;
+        justify-content  : space-around;
+        margin-bottom    : 5px;
+    }
+  }
