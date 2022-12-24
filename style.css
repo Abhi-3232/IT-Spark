@@ -317,8 +317,8 @@
     object-fit         : cover;
     height             : 80vh;
     width              : 100% !important;
-    position           : absolute;
-    z-index            : -1;
+    /* position           : absolute; */
+    /* z-index            : -1; */
 }
 
 .testomonial{
@@ -332,7 +332,7 @@
 
 .testomonial-content{
     color              : #fff;
-flex-direction         : column;
+    flex-direction     : column;
 
 }
 
@@ -359,11 +359,12 @@ flex-direction         : column;
 
 .card-wrapper{
     display            : flex;
+    justify-content: center;
 }
 
 .testo-card{
     margin             : 0 .5em;
-    width              : calc(95%/2);
+    width              : calc(90%/2);
     border-radius      : 30px!important;
 }
 
