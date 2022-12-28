@@ -54,6 +54,18 @@
     color: #00A88F;
 }
 
+.nav-item .rounded-pill{
+    color: #fff !important;
+    font-weight: 500;
+    padding: 8px;
+    background-color:#00A88F;
+}
+
+.nav-item .rounded-pill:hover{
+    color: black !important;
+    background-color: #ebbb39;
+}
+
 .navigation-list li a i{
     color            : #00A88F;
     margin-left      : 5px;
@@ -279,12 +291,8 @@
     max-width         : 100%;
 }
 
-.accordion{
-    border-radius     : 30px !important;
-}
-
 .accordion-button{
-    background        : linear-gradient(#00a88f34, #FFFFFF) !important;
+    background        : linear-gradient(#00a88f4f, #FFFFFF) !important;
     color             : black !important;
     font-weight       : 500;
 }
@@ -509,3 +517,4 @@
 .footer-row p{
     font-size              : 14px;
 }
+
