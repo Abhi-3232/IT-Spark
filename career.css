@@ -1,0 +1,48 @@
+.career-container{
+
+}
+
+.career-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A88F; 
+    height: 20vh;
+    color: #FFF;
+}
+
+hr.rounded {
+    border-top: 8px solid #ebbc39;
+    border-radius: 0px;
+    opacity: 1;
+  }
+
+.join-container{
+    background-color: #00A88F;
+}
+
+.join-img img{
+    /* border-radius: 30px; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.join-content{
+    color: #fff;
+    text-align: justify;
+}
+
+.form-button{
+    background-color: #fff !important;
+    color: #00A88F!important;
+}
+
+.form-button:hover{
+    background-color: #ebbc39 !important;
+    color: black !important;
+}
+
+.career-form{
+    background-color: #00A88F;
+    border-radius: 30px;
+}
