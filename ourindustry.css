@@ -1,0 +1,46 @@
+.industry-img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    background-image :
+    linear-gradient(to bottom, rgb(0, 168, 143),rgba(255, 255, 255, 0.67)),
+    url('./Assets/Images/attractive-asian-female-marketing-employee-remote-working-coffee-shop-using-portable-tablet-touchpad_49553-1848.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remote-future-row{
+    /* background-color: #F4F7FA; */
+    text-align: justify;
+}
+
+.resorces-row .col-12{
+    margin-top: -75px !important;
+}
+
+.resorce-card-wrapper{
+    display: flex;
+}
+
+.resorce-card{
+    margin: 0 .5em;
+    width: calc(100%/6);
+}
+
+.resorce-img-wrapper{
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resorce-img-wrapper img{
+    width: auto;
+    height: 10vh;
+}
