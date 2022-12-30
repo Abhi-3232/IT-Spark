@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.industry-img{
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    background-image :
+    linear-gradient(to bottom, rgb(0, 168, 143),rgba(255, 255, 255, 0.67)),
+    url('./Assets/Images/attractive-asian-female-marketing-employee-remote-working-coffee-shop-using-portable-tablet-touchpad_49553-1848.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remote-future-row{
+    /* background-color: #F4F7FA; */
+    text-align: justify;
+}
+
+.resorces-row .col-12{
+    margin-top: -75px !important;
+}
+
+.resorce-card-wrapper{
+    display: flex;
+}
+
+.resorce-card{
+    margin: 0 .5em;
+    width: calc(100%/6);
+}
+
+.resorce-img-wrapper{
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resorce-img-wrapper img{
+    width: auto;
+    height: 10vh;
+}
+
+.carousel-control-prev{
+    display: flex;
+    width: 4% !important;
+}
+
+.carousel-control-next{
+    display: flex;
+    width: 4% !important;
+}
+
+.remote-future-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.remote-future-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remote-future-img img{
+    height: auto;
+    width: auto;
+}
+
+.hiring-container{
+    background-color  :#F4F7FA;
+    /* height: 50vh; */
+}
+
+.hiring-row{
+    flex-wrap: wrap !important;
+    padding: 5%;
+}
+
+.hiring-box-first-row{
+    height: 48%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+}   
+
+.hiring-box-second-row{
+    height: 48%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap !important;
+}
+
+
+.box{
+    background-color: #00a88fe5 !important;
+    color: #fff !important;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #00A88F;
+    display: flex;
+    flex-direction: row !important;
+    font-size: 14px !important;
+}
+
+.box:hover h3{
+    color: #ebbb39;
+}
+
+.box-inner{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-inner h5{
+    font-size: 18px;
+}
+
+.box-1{
+    border-radius: 10px 42px 10px 42px;
+}
+.box-2{
+    border-radius: 42px 10px 42px 10px;
+}
+
+.hiring-containt{
+    display: flex;
+    flex-direction: column;
+}
+
+.Why-Its img{
+    height: 90% !important;
+    width: auto !important;
+}
+
+@media screen and (max-width: 995px) {
+    .hiring-box-first-row{
+         width: 100% !important;
+    }   
+    .hiring-box-second-row{
+        width: 100% !important;
+    }
+    .hiring-row{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+
+}
