@@ -23,6 +23,10 @@
     text-align: justify;
 }
 
+.resorces-row{
+    max-width: 100%;
+}
+
 .resorces-row .col-12{
     margin-top: -75px !important;
 }
@@ -46,7 +50,7 @@
 
 .resorce-img-wrapper img{
     width: auto;
-    height: 10vh;
+    max-height: 10vh;
 }
 
 .carousel-control-prev{
@@ -158,8 +162,27 @@
     .hiring-row{
         padding: 0px;
     }
+    .resorce-card{
+        margin: 0 .5em;
+        width: calc(100%/3);
+    }
+    .resorce-img-wrapper img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 995px) {
 
+}
+
+.award-img{
+    width: 100%;
+    height: auto;
+}
+
+.award-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
