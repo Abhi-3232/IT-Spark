@@ -167,7 +167,7 @@
         width: calc(100%/3);
     }
     .resorce-img-wrapper img{
-        max-width: 100%;
+        max-width: 95%;
         height: auto;
     }
 }
