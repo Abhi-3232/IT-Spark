@@ -10,8 +10,69 @@
     background: linear-gradient(#00A88F, #FFFFFF);
 }
 
+/* .background .img{
+    background-image: url(./Assets/Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    filter: blur(2px);  
+} */
+
+.contact-detail{
+    background-color: #00a7e9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.contact-detail p {
+    cursor: pointer;
+    color: #fff;
+}
+
+.contact-detail p a{
+    text-decoration: none;
+    color: black;
+    color: #fff;
+} 
+
+.contact-detail p a:hover{
+    text-decoration: none;
+    text-decoration: underline;
+} 
+
+.contect-icon-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center !important;
+}
+
 .navbar{
     padding   : 0px 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-detail{
+    width: 100%;
+}
+
+.contect-icon-list li a i{
+    margin-right: 9px;
+    font-size: large;
+    color: #fff;
+}
+
+.contect-icon-list li a i:hover{
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.navtab{
+    width: 100%;
 }
 
 .nav-item a{
@@ -21,38 +82,15 @@
 }
 
 .nav-item a:hover{
-    color       : #00A88F !important;
+    color       : #0d6efd !important;
 }
 
 .navbar-brand img{
     margin-left : 2%;
-    height      : 50px;
-    width       : 170px;
+    height      : 45px;
+    width       : auto;
 }
 
-.navigation{
-    background-color : #fff;
-    padding-bottom   : 1px;
-    margin-top: 6%;
-}
-
-.navigation ul{
-    display          : flex;
-    list-style       : none;
-    justify-content  : flex-end;
-    margin-right     : 15%;
-    margin-bottom    : 5px;
-}
-
-.navigation-list li a{
-    text-decoration  : none;
-    margin-left      : 38px;
-    color            : black;
-}
-
-.navigation-list li a:hover{
-    color: #00A88F;
-}
 
 .nav-item .rounded-pill{
     color: #fff !important;
@@ -62,8 +100,8 @@
 }
 
 .nav-item .rounded-pill:hover{
-    color: black !important;
-    background-color: #ebbb39;
+    color: #fff !important;
+    background-color: #00a7e9;
 }
 
 .navigation-list li a i{
@@ -75,96 +113,57 @@
     display: none;
 }
 
-.cover-image{
-    position         : relative;
-    display          : flex;
-    height           : 85vh;
-    width            : 75%;
-    align-items      : center;
-    justify-content  : flex-end;
-    margin           : auto;
-
+.heading-para{
+    color: grey;
+    font-size: large !important;
+    font-weight: 500;
 }
 
-.inner-image{
-    background-image :
-    linear-gradient(to bottom, rgba(0, 168, 143, 0.67),rgba(0, 42, 83, 0.67)),
-    url('./Assets/Images/Vector_2640\ .png');
-    height           : 72vh;
-    width            : 62vw;
-    border-radius    : 30px;
-    background-size  : cover;
-    padding-left     : 55px;
-    display          : flex;
-    justify-content  : center;
-    align-items      : center;
-    flex-direction   : column;
-} 
-
-.inner-image h1{
-    color            : #fff;
-    margin-left      : 22%;
+.card-body{
+    padding: 0 !important;
 }
 
-.inner-image button{
-    align-self       : center;
-    margin-left      : -19%;
-    margin-top       : 20px;
-}
-
-.outer-img img{
-    height           : 62vh;
-    width            : 35vw;
-    border-radius    : 30px;
-    background-size  : cover; 
-    z-index          : 2;
-    position         : absolute;
-    top              : 13%;
-    left             : 0;
-    box-shadow       : 1px 1px 3px 1px rgb(255 255 255 / 40%) ;
-}
-
-.heading{
-    margin-left      : 8%;
-    margin-bottom    : 0px;
+.card-body p{
+    color: grey;
 }
 
 .service-card{
-    height           : 200px;
     width            : 100%;
-    border           : 1px solid black;
+    border           : none !important;
 }
 
-.service-card:hover{
-    border           : 2px solid #00A88F;
-    margin-top       : -15px;
-    transition       : 0.5s;
+.serving-row{
+    padding: 5% 4% !important;
+}
+
+.serving-content{
+    margin-left: 15px;
+}
+
+.serving-para{
+    padding: 2% 7% !important;
+    font-size: 18px;
+    color: rgb(82, 82, 82);
+}
+
+.serving-img{
+    display: flex;
+    justify-content: baseline;
+}
+
+.serving-img img{
+    height: 40px;
+    width: auto;
 }
 
 .service-card-img img{
-    height           : 100px;
-    width            : 100px;
-}
-.second img{
-    height           : 80px;
-    width            : 80px;
+    max-height: 100% !important;
+    height: 70px !important;
+    width: auto;
 }
 
-.service-card .video img{
-    height            : 80px;
-    width             : 80px;
-}
-.wing img{
-    height            : 100px;
-    width             : 130px;
-}
-
-.show-more{
-    background-color  : #00A88F !important;
-    display           : block;
-    border-radius     : 30px !important;
-    color             : #fff !important;
-    margin            : auto !important;
+.serving-row-1{
+    box-shadow: rgba(0,168,143,0.16) 0px 10px 36px 0px, rgba(0,168,143,0.6) 0px 0px 0px 0px;
 }
 
 .achievements{
