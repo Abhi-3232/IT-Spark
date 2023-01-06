@@ -38,6 +38,8 @@
 .resorce-card{
     margin: 0 .5em;
     width: calc(100%/6);
+    height: auto;
+    padding-bottom: 2%;
 }
 
 .resorce-img-wrapper{
@@ -170,11 +172,13 @@
         max-width: 95%;
         height: auto;
     }
+    .resorce-img-wrapper{
+        height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
 }
 
-@media screen and (max-width: 995px) {
-
-}
 
 .award-img{
     width: 100%;

@@ -20,7 +20,7 @@
     filter: blur(2px);  
 } */
 
-.contact-detail{
+.contact-detail-row{
     background-color: #00a7e9;
     width: 100%;
     display: flex;
@@ -29,18 +29,18 @@
     align-items: center !important;
 }
 
-.contact-detail p {
+.contact-detail-row p {
     cursor: pointer;
     color: #fff;
 }
 
-.contact-detail p a{
+.contact-detail-row p a{
     text-decoration: none;
     color: black;
     color: #fff;
 } 
 
-.contact-detail p a:hover{
+.contact-detail-row p a:hover{
     text-decoration: none;
     text-decoration: underline;
 } 
@@ -57,7 +57,7 @@
     flex-direction: column;
 }
 
-.contact-detail{
+.contact-detail-row{
     width: 100%;
 }
 
