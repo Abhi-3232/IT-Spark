@@ -1,0 +1,23 @@
+.about-file-img{
+    background-image :
+    linear-gradient(to bottom, rgb(0, 168, 143),rgba(255, 255, 255, 0)),
+    url('./Assets/Images/group-business.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-file-img h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 10%;
+}
+
+.about-file-row p{
+    text-align: justify;
+}
