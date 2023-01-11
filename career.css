@@ -66,3 +66,15 @@ hr.rounded {
         font-size: 16px;
     }
 }
+
+@media screen and (max-width:1030px){
+    .career-container{
+        margin-top: 7% !important;
+    }
+}
+
+@media screen and (max-width:992px){
+    .career-container{
+        margin-top: 7% !important;
+    }
+}
