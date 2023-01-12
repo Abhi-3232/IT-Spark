@@ -8,7 +8,7 @@
     color: #fff;
 }
 
-.form-container{
+/* .form-container{
     margin-top: -150px;
 }
 
@@ -44,14 +44,131 @@
     border-top: none;
     border-left: none;
     border-right:none ;
+}*/
+
+.form-container{
+    margin-top: -150px;
+}
+
+.input-container{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 5% 5%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.textarea-div input{
+    width: 100%;
+    margin-bottom: 2%;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding: 8px 16px !important;
+}
+
+.textarea-div input::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+
+.textarea-div input:focus{
+    outline: none;
+    border: 2px solid gray;
+}
+
+.textarea-div select{
+    width: 100%;
+    margin-bottom: 2%;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding: 8px 16px !important;
+}
+
+.textarea-div select::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+
+.textarea-div select:focus{
+    outline: none;
+    border: 2px solid gray;
+}
+
+.textarea-div textarea{
+    width: 100%;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    padding: 8px 16px !important;
+}
+
+.textarea-div textarea::placeholder{
+    color: gray;
+    font-size: 15px!important;
+}
+
+.textarea-div textarea:focus{
+    outline: none;
+    border: 2px solid gray;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.input-container p{
+    font-size: 15px;
+}
+
+.g-recaptcha{
+    margin-top: 3%;
 }
 
 .contact-us-btn{
-    background-color: #00A88F !important;
     color: #fff !important;
+    margin-top: 4%;
+    padding: 5px 15px !important;
 }
 
 .contact-us-btn:hover{
-    color: black !important;
-    background-color: #ebbb39 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+} 
+
+.rating-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rating-img img{
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.contact-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-icon{
+    font-size: 23px;
+    margin-right: 15px;
+}
+
+.cont-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-heading h5{
+    font-size: 16px;
+    font-weight: bold;
 }
