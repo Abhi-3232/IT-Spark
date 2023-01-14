@@ -34,7 +34,7 @@
   z-index: 3;
 }
 
-.container-new:hover .overlay {
+.overlay-container:hover .overlay {
   bottom: 0;
   height: 100%;
 }
