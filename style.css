@@ -2,7 +2,7 @@
     margin    : 0px;
     padding   : 0px;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .hero{
@@ -15,10 +15,10 @@
     /* background-image: url(./Assets/Images/globe-technology-business-with-gradient-wallpaper.jpg); */
     background-image :
     linear-gradient(to bottom, rgba(0, 168, 143, 0.493),rgba(255, 255, 255, 0.514)),
-    url('./Assets/Images/background-web-banner-design-technology.jpg');
+    url('./Assets/Images/globe-technology-business-with-gradient-wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     width: 100%;
     height: 85vh;
     display: flex;
@@ -111,7 +111,7 @@
 .nav-item a{
     margin      : 0px 16px;
     color       : black !important;
-    font-weight : bold;
+    /* font-weight : bold; */
 }
 
 .nav-item a:hover{

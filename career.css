@@ -1,36 +1,70 @@
-.career-container{
-
-}
-
-.career-row{
+/* .career-row{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #00A88F; 
     height: 20vh;
     color: #FFF;
-}
-
+} */
+/* 
 hr.rounded {
     border-top: 8px solid #ebbc39;
     border-radius: 0px;
     opacity: 1;
-  }
+  } */
 
 .join-container{
-    background-color: #00A88F;
+    /* background-image :
+    linear-gradient(to bottom, rgb(0, 168, 143),rgba(255, 255, 255, 0.67)),
+    url('./Assets/Images/executives-joking-laughing-office\ \(1\).jpg'); */
+    background-image: url(./Assets/Images/executives-joking-laughing-office\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0px !important;
+    margin-bottom: 3%;
 }
 
-.join-img img{
-    /* border-radius: 30px; */
+.overlay{
+    background-color: rgba(0, 168, 143, 0.521);
+    width: 100%;
+    height: 70vh;
+}
+
+
+.overlay .text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-cover-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.career-container{
+    margin-bottom: 1%;
+}
+
+/* .join-img img{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-}
-
+} */
+/* 
 .join-content{
     color: #fff;
     text-align: justify;
-}
+} */
 
 .form-button{
     background-color: #fff !important;
@@ -43,8 +77,37 @@ hr.rounded {
 }
 
 .career-form{
-    background-color: #00A88F;
+    /* background-color: #00a88fd3; */
+    border: 1px solid rgba(128, 128, 128, 0.301);
     border-radius: 30px;
+}
+
+.career-form:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.career-form input{
+    border-radius: 20px;
+}
+
+.career-form input:focus{
+    outline: none;
+}
+
+.career-form input:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.career-form select{
+    border-radius: 20px;
+}
+
+.career-form select:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.attachment:hover{
+    box-shadow: none !important;
 }
 
 .accordion-button:focus {
