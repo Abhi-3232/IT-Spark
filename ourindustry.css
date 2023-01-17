@@ -1,3 +1,14 @@
+.cover-image{
+  height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio-heading{
+  color: #fff;
+}
+
 .row-1{
     display: flex;
     justify-content: space-evenly;
