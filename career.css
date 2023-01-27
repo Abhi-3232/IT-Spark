@@ -35,6 +35,17 @@ hr.rounded {
     background-color: rgba(0, 168, 143, 0.521);
     width: 100%;
     height: 70vh;
+    background: linear-gradient(45deg, hsla(var(--baseColor2), 1) 0%, hsla(var(--baseColor3), 1) 41.38%, hsla(var(--baseColor1), 1) 90.15%, hsla(var(--baseColor1), 1) 100%);
+    --baseColor1: 344, 100%, 59%;
+    --baseColor2: 252, 51%, 34%;
+    --baseColor3: 302, 81%, 36%;
+    --baseColor4: 253, 17%, 53%;
+    --baseColor5: 254, 20%, 83%;
+    --baseColor6: 253, 37%, 91%;
+    --baseColor7: 257, 37%, 96%;
+    --white: 0, 0%, 100%;
+    --black: 180, 4%, 5%;
+    opacity: 85%;
 }
 
 
@@ -52,8 +63,42 @@ hr.rounded {
     transform: translate(-50%, -50%);
 }
 
+.career-row{
+    
+}
+
+.hr-heading{
+    background: linear-gradient(45deg, hsla(var(--baseColor2), 1) 0%, hsla(var(--baseColor3), 1) 41.38%, hsla(var(--baseColor1), 1) 90.15%, hsla(var(--baseColor1), 1) 100%);
+    --baseColor1: 344, 100%, 59%;
+    --baseColor2: 252, 51%, 34%;
+    --baseColor3: 302, 81%, 36%;
+    --baseColor4: 253, 17%, 53%;
+    --baseColor5: 254, 20%, 83%;
+    --baseColor6: 253, 37%, 91%;
+    --baseColor7: 257, 37%, 96%;
+    --white: 0, 0%, 100%;
+    --black: 180, 4%, 5%;  
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+
 .career-container{
     margin-bottom: 1%;
+}
+
+.accordion-button{
+    /* background: linear-gradient(45deg, hsla(var(--baseColor2), 1) 0%, hsla(var(--baseColor3), 1) 41.38%, hsla(var(--baseColor1), 1) 90.15%, hsla(var(--baseColor1), 1) 100%) !important;
+    --baseColor1: 344, 100%, 59%;
+    --baseColor2: 252, 51%, 34%;
+    --baseColor3: 302, 81%, 36%;
+    --baseColor4: 253, 17%, 53%;
+    --baseColor5: 254, 20%, 83%;
+    --baseColor6: 253, 37%, 91%;
+    --baseColor7: 257, 37%, 96%;
+    --white: 0, 0%, 100%;
+    --black: 180, 4%, 5%;
+    opacity: 90%; */
+    background: #fff !important;
 }
 
 /* .join-img img{
@@ -88,6 +133,11 @@ hr.rounded {
 
 .career-form input{
     border-radius: 20px;
+    
+}
+
+input[type=text]{
+    background-color: hsla(var(--baseColor7), 1) !important;
 }
 
 .career-form input:focus{
@@ -120,6 +170,22 @@ hr.rounded {
     overflow: hidden;
 }
 
+.submit-btn{
+    background-color: #ff3067 !important;
+}
+
+.footer{
+    background: linear-gradient(45deg, hsla(var(--baseColor2), 1) 0%, hsla(var(--baseColor3), 1) 41.38%, hsla(var(--baseColor1), 1) 90.15%, hsla(var(--baseColor1), 1) 100%) !important;
+    --baseColor1: 344, 100%, 59%;
+    --baseColor2: 252, 51%, 34%;
+    --baseColor3: 302, 81%, 36%;
+    --baseColor4: 253, 17%, 53%;
+    --baseColor5: 254, 20%, 83%;
+    --baseColor6: 253, 37%, 91%;
+    --baseColor7: 257, 37%, 96%;
+    --white: 0, 0%, 100%;
+    --black: 180, 4%, 5%;
+}
 
 @media screen and (max-width: 543px){
     .career-container{
