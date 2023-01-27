@@ -136,7 +136,7 @@ hr.rounded {
     
 }
 
-input[type=text]{
+.form-colum input[type=text]{
     background-color: hsla(var(--baseColor7), 1) !important;
 }
 
